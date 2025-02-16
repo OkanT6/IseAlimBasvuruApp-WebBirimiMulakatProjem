@@ -1,0 +1,15 @@
+C:\Users\okant\source\repos\IseAlimBasvuruProjesi\IseAlimBasvuruApp.Application\bin\Debug\net9.0\IseAlimBasvuruApp.Application.deps.json
+C:\Users\okant\source\repos\IseAlimBasvuruProjesi\IseAlimBasvuruApp.Application\bin\Debug\net9.0\IseAlimBasvuruApp.Application.dll
+C:\Users\okant\source\repos\IseAlimBasvuruProjesi\IseAlimBasvuruApp.Application\bin\Debug\net9.0\IseAlimBasvuruApp.Application.pdb
+C:\Users\okant\source\repos\IseAlimBasvuruProjesi\IseAlimBasvuruApp.Application\obj\Debug\net9.0\IseAlimBasvuruApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\okant\source\repos\IseAlimBasvuruProjesi\IseAlimBasvuruApp.Application\obj\Debug\net9.0\IseAlimBasvuruApp.Application.AssemblyInfoInputs.cache
+C:\Users\okant\source\repos\IseAlimBasvuruProjesi\IseAlimBasvuruApp.Application\obj\Debug\net9.0\IseAlimBasvuruApp.Application.AssemblyInfo.cs
+C:\Users\okant\source\repos\IseAlimBasvuruProjesi\IseAlimBasvuruApp.Application\obj\Debug\net9.0\IseAlimBasvuruApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\okant\source\repos\IseAlimBasvuruProjesi\IseAlimBasvuruApp.Application\obj\Debug\net9.0\IseAlimBasvuruApp.Application.dll
+C:\Users\okant\source\repos\IseAlimBasvuruProjesi\IseAlimBasvuruApp.Application\obj\Debug\net9.0\refint\IseAlimBasvuruApp.Application.dll
+C:\Users\okant\source\repos\IseAlimBasvuruProjesi\IseAlimBasvuruApp.Application\obj\Debug\net9.0\IseAlimBasvuruApp.Application.pdb
+C:\Users\okant\source\repos\IseAlimBasvuruProjesi\IseAlimBasvuruApp.Application\obj\Debug\net9.0\ref\IseAlimBasvuruApp.Application.dll
+C:\Users\okant\source\repos\IseAlimBasvuruProjesi\IseAlimBasvuruApp.Application\obj\Debug\net9.0\IseAlimBasvuruApp.Application.csproj.AssemblyReference.cache
+C:\Users\okant\source\repos\IseAlimBasvuruProjesi\IseAlimBasvuruApp.Application\bin\Debug\net9.0\IseAlimBasvuruApp.Domain.dll
+C:\Users\okant\source\repos\IseAlimBasvuruProjesi\IseAlimBasvuruApp.Application\bin\Debug\net9.0\IseAlimBasvuruApp.Domain.pdb
+C:\Users\okant\source\repos\IseAlimBasvuruProjesi\IseAlimBasvuruApp.Application\obj\Debug\net9.0\IseAlimB.083AB7A2.Up2Date
