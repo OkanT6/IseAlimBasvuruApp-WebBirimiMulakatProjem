@@ -1,0 +1,179 @@
+[
+  {
+    "ContainingType": "IseAlimBasvuruApp.API.Controllers.IlanController",
+    "Method": "IlanDetayGoruntule",
+    "RelativePath": "api/Ilan/IlanDetayGoruntule",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "IseAlimBasvuruApp.Domain.DTOs.IlanYayinDetayDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "IseAlimBasvuruApp.API.Controllers.IlanController",
+    "Method": "IlaniKapat",
+    "RelativePath": "api/Ilan/IlaniKapat",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ilanId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IseAlimBasvuruApp.API.Controllers.IlanController",
+    "Method": "ilanlariListeleAktif",
+    "RelativePath": "api/Ilan/ilanlariListeleAktif",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[IseAlimBasvuruApp.Domain.DTOs.IlanYayinDTO, IseAlimBasvuruApp.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "IseAlimBasvuruApp.API.Controllers.IlanController",
+    "Method": "ilanYayinla",
+    "RelativePath": "api/Ilan/ilanYayinla",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ilanDTO",
+        "Type": "IseAlimBasvuruApp.Domain.DTOs.IlanDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IseAlimBasvuruApp.API.Controllers.KullaniciController",
+    "Method": "getKullanici",
+    "RelativePath": "api/Kullanici/getKullanici",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IseAlimBasvuruApp.API.Controllers.KullaniciController",
+    "Method": "girisYap",
+    "RelativePath": "api/Kullanici/girisYap",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "girisDTO",
+        "Type": "IseAlimBasvuruApp.Application.DTOs.GirisDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IseAlimBasvuruApp.API.Controllers.KullaniciController",
+    "Method": "kayitOl",
+    "RelativePath": "api/Kullanici/kayitOl",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "kayitDTO",
+        "Type": "IseAlimBasvuruApp.Domain.DTOs.KayitDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IseAlimBasvuruApp.API.Controllers.KullaniciController",
+    "Method": "profilBilgileriniGoruntule",
+    "RelativePath": "api/Kullanici/profilBilgileriniGoruntule",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IseAlimBasvuruApp.API.Controllers.KullaniciController",
+    "Method": "profilFotografiniDegistir",
+    "RelativePath": "api/Kullanici/profilFotografiniDegistir",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,500 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "IseAlimBasvuruApp API",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Ilan/IlanDetayGoruntule": {
+      "get": {
+        "tags": [
+          "Ilan"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/IlanYayinDetayDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/IlanYayinDetayDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/IlanYayinDetayDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Ilan/ilanlariListeleAktif": {
+      "get": {
+        "tags": [
+          "Ilan"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/IlanYayinDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/IlanYayinDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/IlanYayinDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Ilan/ilanYayinla": {
+      "post": {
+        "tags": [
+          "Ilan"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/IlanDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/IlanDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/IlanDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Ilan/IlaniKapat": {
+      "put": {
+        "tags": [
+          "Ilan"
+        ],
+        "parameters": [
+          {
+            "name": "ilanId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Kullanici/getKullanici": {
+      "get": {
+        "tags": [
+          "Kullanici"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Kullanici/kayitOl": {
+      "post": {
+        "tags": [
+          "Kullanici"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KayitDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KayitDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/KayitDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Kullanici/girisYap": {
+      "post": {
+        "tags": [
+          "Kullanici"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GirisDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GirisDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GirisDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Kullanici/profilBilgileriniGoruntule": {
+      "get": {
+        "tags": [
+          "Kullanici"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Kullanici/profilFotografiniDegistir": {
+      "post": {
+        "tags": [
+          "Kullanici"
+        ],
+        "parameters": [
+          {
+            "name": "ContentType",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ContentDisposition",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Headers",
+            "in": "query",
+            "schema": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          {
+            "name": "Length",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          },
+          {
+            "name": "Name",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "FileName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CalismaSekli": {
+        "enum": [
+          "Uzaktan",
+          "Yüzü_yüze",
+          "Hibrit"
+        ],
+        "type": "string"
+      },
+      "CalismaTipi": {
+        "enum": [
+          "Full_Time",
+          "Part_Time",
+          "Dönemsel_Proje_Bazlı",
+          "Staj",
+          "Serbest_Zamanli"
+        ],
+        "type": "string"
+      },
+      "Cinsiyet": {
+        "enum": [
+          "Erkek",
+          "Kadın"
+        ],
+        "type": "string"
+      },
+      "Deneyim": {
+        "enum": [
+          "Yeni_Başlayan",
+          "Orta_Seviye",
+          "İleri_Seviye"
+        ],
+        "type": "string"
+      },
+      "GirisDTO": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "sifre": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "IlanDTO": {
+        "type": "object",
+        "properties": {
+          "ilanBaslik": {
+            "type": "string",
+            "nullable": true
+          },
+          "ilanIsTanimi": {
+            "type": "string",
+            "nullable": true
+          },
+          "ilanIsTanimiUzun": {
+            "type": "string",
+            "nullable": true
+          },
+          "calismaSekli": {
+            "$ref": "#/components/schemas/CalismaSekli"
+          },
+          "deneyim": {
+            "$ref": "#/components/schemas/Deneyim"
+          },
+          "calismaTipi": {
+            "$ref": "#/components/schemas/CalismaTipi"
+          },
+          "arananCinsiyet": {
+            "$ref": "#/components/schemas/Cinsiyet"
+          },
+          "isYeriLokasyonId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "IlanYayinDTO": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "isTanimi": {
+            "type": "string",
+            "nullable": true
+          },
+          "baslik": {
+            "type": "string",
+            "nullable": true
+          },
+          "ilanYayinlanmaTarihi": {
+            "type": "string",
+            "format": "date"
+          },
+          "basvuranKisiSayisi": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "IlanYayinDetayDTO": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ilanBaslik": {
+            "type": "string",
+            "nullable": true
+          },
+          "ilanYayinlanmaTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "ilanKapatilmaTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "ilanAktif": {
+            "type": "boolean"
+          },
+          "ilanIsTanimi": {
+            "type": "string",
+            "nullable": true
+          },
+          "ilanIsTanimiUzun": {
+            "type": "string",
+            "nullable": true
+          },
+          "calismaSekli": {
+            "$ref": "#/components/schemas/CalismaSekli"
+          },
+          "deneyim": {
+            "$ref": "#/components/schemas/Deneyim"
+          },
+          "calismaTipi": {
+            "$ref": "#/components/schemas/CalismaTipi"
+          },
+          "arananCinsiyet": {
+            "$ref": "#/components/schemas/Cinsiyet"
+          }
+        },
+        "additionalProperties": false
+      },
+      "KayitDTO": {
+        "type": "object",
+        "properties": {
+          "ad": {
+            "type": "string",
+            "nullable": true
+          },
+          "soyad": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "sifre": {
+            "type": "string",
+            "nullable": true
+          },
+          "telefon": {
+            "type": "string",
+            "nullable": true
+          },
+          "dogumTarihi": {
+            "type": "string",
+            "format": "date"
+          },
+          "cinsiyet": {
+            "$ref": "#/components/schemas/Cinsiyet"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "JWT kullanarak yetkilendirme için 'Bearer <TOKEN>' formatında giriniz.",
+        "scheme": "Bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}
