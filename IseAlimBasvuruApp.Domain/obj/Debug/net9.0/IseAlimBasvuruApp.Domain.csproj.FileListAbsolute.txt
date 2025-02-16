@@ -1,0 +1,11 @@
+C:\Users\okant\source\repos\IseAlimBasvuruProjesi\IseAlimBasvuruApp.Domain\bin\Debug\net9.0\IseAlimBasvuruApp.Domain.deps.json
+C:\Users\okant\source\repos\IseAlimBasvuruProjesi\IseAlimBasvuruApp.Domain\bin\Debug\net9.0\IseAlimBasvuruApp.Domain.dll
+C:\Users\okant\source\repos\IseAlimBasvuruProjesi\IseAlimBasvuruApp.Domain\bin\Debug\net9.0\IseAlimBasvuruApp.Domain.pdb
+C:\Users\okant\source\repos\IseAlimBasvuruProjesi\IseAlimBasvuruApp.Domain\obj\Debug\net9.0\IseAlimBasvuruApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\okant\source\repos\IseAlimBasvuruProjesi\IseAlimBasvuruApp.Domain\obj\Debug\net9.0\IseAlimBasvuruApp.Domain.AssemblyInfoInputs.cache
+C:\Users\okant\source\repos\IseAlimBasvuruProjesi\IseAlimBasvuruApp.Domain\obj\Debug\net9.0\IseAlimBasvuruApp.Domain.AssemblyInfo.cs
+C:\Users\okant\source\repos\IseAlimBasvuruProjesi\IseAlimBasvuruApp.Domain\obj\Debug\net9.0\IseAlimBasvuruApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\okant\source\repos\IseAlimBasvuruProjesi\IseAlimBasvuruApp.Domain\obj\Debug\net9.0\IseAlimBasvuruApp.Domain.dll
+C:\Users\okant\source\repos\IseAlimBasvuruProjesi\IseAlimBasvuruApp.Domain\obj\Debug\net9.0\refint\IseAlimBasvuruApp.Domain.dll
+C:\Users\okant\source\repos\IseAlimBasvuruProjesi\IseAlimBasvuruApp.Domain\obj\Debug\net9.0\IseAlimBasvuruApp.Domain.pdb
+C:\Users\okant\source\repos\IseAlimBasvuruProjesi\IseAlimBasvuruApp.Domain\obj\Debug\net9.0\ref\IseAlimBasvuruApp.Domain.dll
